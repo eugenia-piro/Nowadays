@@ -24,3 +24,10 @@
 #clearfix {
     overflow: auto;
 }
+.margins {
+    margin: 100px 0px 0px ;
+    padding: 20px 400px 0px 50px;
+    border-top: 30px solid indigo;
+    border-left: 100px solid indigo;
+    border-right: 100px solid indigo;
+}

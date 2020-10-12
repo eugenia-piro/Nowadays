@@ -1,34 +1,46 @@
 /* Title */
 .titles h1{
-    margin: 6px 0 0;
+    margin: 6px 0;
     color: #303030;
-    font: 700 36px/38px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 38px;
+    font-family: "Unify Sans", "Helvetica Neue", "Arial Nova", Helvetica, Arial, sans-serif;
+    
 }
-/* Paragraph */
-.titles h3{
+/* Movies */
+.titles h3 {
     color: #691464;
-    font: 700 14px/1 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    padding: 0 2px 1px;
+    margin: 0 0 auto;
+    font: 800 14px/2 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     text-decoration: underline;
     text-decoration-color: #691464;
+    cursor: pointer;
 }
-
+/* Author and Newspaper*/
 .titles h4{
     display: inline;
-    white-space: nowrap;
-    order: 4;
     margin: 1px 0 0;
     color: #303030;
     font: 16px/20px 'Georgia Pro',Georgia,'Droid Serif',serif;
 }
-/* Paragraph */
+.titles h4 a{
+    display: inline;    
+    margin: 0 6px 0 0;
+    color: #303030;
+    font-weight: 800;    
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Unify Sans", "Helvetica Neue", "Arial Nova", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #0098fe;
+    cursor: pointer;
+}
+/* Date */
 .titles h5{
     margin: 4px 0;
     color: #626262;
     font: 12px/15px 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
 }
-/* End Line */
-.titles a{
-    color: #303030;
-    text-decoration: underline #0098fe;
-    font: 18px/27px 'Georgia Pro',Georgia,'Droid Serif',serif;
-    }
+

@@ -1,64 +1,96 @@
-/* H2 */
+/* H2 - Negro */
 .header h2{
     color: #303030;
-    font: 700 14px/1 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    font: 800 14px/3px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    text-align: left;
 }
-/* H3 */
+/* H3 - Gris y violeta */
 .header h3{
     color: #626262;
     border-top: 5px solid #aa50e6;    
     text-decoration: none;
+    text-transform: uppercase;
     text-overflow: ellipsis;
     font-size: 10px;
-    font: 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    line-height: 5px;
+    font: 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;   
+    text-align: left;
+    padding: 7px 0 0;
+    margin: 0;
 }
-/* H3 */
-.header {
-    float: left;
-    border: 1px solid #ccc;
-    width: 16,67%;
-    padding: 10px;
+/* H4 - USA TODAY*/
+.header h4{
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 800;
+    font: 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    display: inline;
+    text-align: left;
+}
+.header li{
     box-sizing: border-box;
-    display: block;
+    display: inline-block;
+    overflow: hidden;
+    width: 14%;
+    height: 50px;
+    margin: 0 1.5%  0 2px;
+    padding: 0;    
 }
 .header{
     font: 10px/13px 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
-    display: block;
-    float: left;
+}
+.header ul{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
 }
 /* Suscribe */
 #subscribe {
     color: #1665cf;
-    font: 700 16px/18px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    font: 800 14px/25px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     box-align: left;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 /* Cost */
 #cost {
     color: #303030;
     font: 700 12px/14px 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
-    width: 100;
     box-align: left;
-    
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 /* Nav */
 .nav li{    
-    float: left;
-    display: inline;
-    color: #fff;
+    display: inline;    
     text-align: center;
     text-decoration: none;
-    border: 1px solid #ccc;
-    
     box-sizing: border-box;
     list-style-type: none;    
-    padding: 14 16px;
+    padding: 0 10px;    
+}
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
     font: 700 12px/28px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;    
     white-space: nowrap;
     text-size-adjust: none;
+    font-weight: bold;
 }
-
-.nav {
+.nav ul{
     overflow: hidden;
     background-color:#303030;
-    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
 }
