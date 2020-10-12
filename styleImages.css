@@ -1,20 +1,28 @@
 /* Title */
-.picture h1{
-    color: blue;
-    font-size: 12px;
-    font-style: bold;
-    font-family: 'Times New Roman', Times, serif;
+.picture h3{
+    color: #303030;
+    overflow: hidden;
+    display: -webkit-box;
+    margin: 8px 0 11px;
+    font: 700 16px/18px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    -webkit-line-clamp: inherit;
+    -webkit-box-orient: vertical;
+    text-size-adjust: none;
+    font-weight: bold;
 }
 /* Paragraph */
 .picture p{
-    color: blue;
-    font-size: 12px;
-    font-style: bold;
-    font-family: 'Times New Roman', Times, serif;
+    color: #303030;
+    overflow: hidden;
+    display: -webkit-box;
+    margin: 8px 0 11px;
+    font: 12px/15px 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    -webkit-line-clamp: inherit;
+    -webkit-box-orient: vertical;    
 }
 /* End Line */
 .picture hr{
-    color: dodgerblue;
-    width: 100;
-    box-align: left;
+    border-top: 1px solid #0098fe;
+    width: 105px;
+    margin: 0;
 }
