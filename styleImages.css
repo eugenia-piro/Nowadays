@@ -1,4 +1,20 @@
-
+/* Title */
 .picture h1{
-
+    color: blue;
+    font-size: 12px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Paragraph */
+.picture p{
+    color: blue;
+    font-size: 12px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* End Line */
+.picture hr{
+    color: dodgerblue;
+    width: 100;
+    box-align: left;
 }
