@@ -104,6 +104,6 @@
     text-align: center;
     cursor: pointer;
 }
-#subscribe2 li{
-    background-color: #1665cf;
+#subscribe2 {
+    background-color: #1665cf;      
 }
