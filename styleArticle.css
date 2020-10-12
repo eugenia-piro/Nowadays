@@ -20,3 +20,7 @@
     text-decoration: underline #0098fe;
     font: 18px/27px 'Georgia Pro',Georgia,'Droid Serif',serif;
     }
+
+#clearfix {
+    overflow: auto;
+}
