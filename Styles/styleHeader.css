@@ -34,6 +34,9 @@
 .header a{    
     text-decoration: none;   
 }
+.header a:hover{    
+    text-decoration: none;   
+}
 .header li{
     box-sizing: border-box;
     display: inline-block;
@@ -52,7 +55,7 @@
     margin: 0;
     padding: 0;    
 }
-/* Suscribe */
+/* Subscribe */
 #subscribe {
     color: #1665cf;
     font: 800 14px/25px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
@@ -77,16 +80,20 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style-type: none;    
-    padding: 0 10px;    
+    padding: 0 10px;
+    margin: 0 15px;
 }
 .nav li a{
     text-decoration: none;
     color: #fff;
-    -webkit-font-smoothing: antialiased;
-    font: 700 12px/28px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;    
+    font: 800 12px/28px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;    
     white-space: nowrap;
     text-size-adjust: none;
     font-weight: bold;
+}
+.nav li a:hover{
+    text-decoration: none;
+    color: #d5d5da;    
 }
 .nav ul{
     overflow: hidden;
@@ -96,4 +103,7 @@
     padding: 0;
     text-align: center;
     cursor: pointer;
+}
+#subscribe2 li{
+    background-color: #1665cf;
 }
