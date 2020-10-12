@@ -18,6 +18,7 @@
 .article a{
     color: #303030;
     text-decoration: underline #0098fe;
+    cursor: pointer;
     font: 18px/27px 'Georgia Pro',Georgia,'Droid Serif',serif;
     }
 

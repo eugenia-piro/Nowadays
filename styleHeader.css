@@ -31,6 +31,9 @@
     display: inline;
     text-align: left;
 }
+.header a{    
+    text-decoration: none;   
+}
 .header li{
     box-sizing: border-box;
     display: inline-block;
