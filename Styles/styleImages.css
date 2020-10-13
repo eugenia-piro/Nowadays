@@ -27,6 +27,7 @@
     height: 20px;
     background-color: #eee;
     margin-left: 10px;
+    float: right;
 }
 #picright img{
     display: inline;
