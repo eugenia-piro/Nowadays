@@ -1,0 +1,116 @@
+/* H2 - Negro */
+.header h2{
+    color: #303030;
+    font: 800 14px/3px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    text-align: left;
+}
+/* H3 - Gris y azul */
+.header h3{
+    color: #626262;
+    border-top: 5px solid #0098fe;    
+    text-decoration: none;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 5px;
+    font: 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;   
+    text-align: left;
+    padding: 7px 0 0;
+    margin: 0;
+}
+/* H4 - USA TODAY*/
+.header h4{
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 800;
+    font: 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    display: inline;
+    text-align: left;
+}
+.header a{    
+    text-decoration: none;   
+}
+.header a:hover{    
+    text-decoration: none;   
+}
+.header li{
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: 14%;
+    height: 50px;
+    margin: 0 1.5%  0 2px;
+    padding: 0;    
+}
+.header{
+    font: 10px/13px 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+}
+.header ul{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+/* Subscribe */
+#subscribe {
+    color: #1665cf;
+    font: 800 14px/25px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    box-align: left;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* Cost */
+#cost {
+    color: #303030;
+    font: 700 12px/14px 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    box-align: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Nav */
+.nav li{    
+    display: inline;    
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;    
+    padding: 0 10px;
+    margin: 0 15px;
+    color: #fff;
+}
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+    font: 800 12px/28px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;    
+    white-space: nowrap;
+    text-size-adjust: none;
+    font-weight: bold;
+}
+.nav li a:hover{
+    text-decoration: none;
+    color: #d5d5da;    
+}
+.nav ul{
+    overflow: hidden;
+    background-color:#303030;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+#subscribe2 {
+    background-color: #1665cf;      
+}
+#ad1 {
+    background: rgb(251, 241, 255);
+    margin: 0;
+    height: 75px;
+    width: 100%;
+}
